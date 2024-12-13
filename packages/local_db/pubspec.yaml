@@ -1,0 +1,25 @@
+name: local_db
+description: A Dart API Client for the Local DB (using Hive package).
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  #API
+  yelp_api:
+    path: ../yelp_api
+
+  #Local DB
+  hive: ^2.2.3
+  isar_flutter_libs: ^4.0.0-dev.13
+  path_provider: ^2.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
